@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://shaderz/Sun.gdshader" type="Shader" id=1]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+shader_param/brightness = 1.5
+shader_param/ray_brightness = 10.0
+shader_param/gamma = 8.0
+shader_param/spot_brightness = 15.0
+shader_param/ray_density = 3.5
+shader_param/curvature = 15.0
+shader_param/rgb = Vector3( 4, 1, 0.1 )
+shader_param/sin_freq = 13.0
+
+[node name="Sun" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource( 1 )
+margin_right = 40.0
+margin_bottom = 40.0

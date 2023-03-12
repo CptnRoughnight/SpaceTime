@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/inspiration.mp3-1ad1808b4cd14216bde7137f46ce63da.mp3str"
+
+[deps]
+
+source_file="res://assets/music/inspiration.mp3"
+dest_files=[ "res://.import/inspiration.mp3-1ad1808b4cd14216bde7137f46ce63da.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

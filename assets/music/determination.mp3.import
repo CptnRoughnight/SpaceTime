@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/determination.mp3-887d91c0a4d314449a8318ac0c6a6f16.mp3str"
+
+[deps]
+
+source_file="res://assets/music/determination.mp3"
+dest_files=[ "res://.import/determination.mp3-887d91c0a4d314449a8318ac0c6a6f16.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

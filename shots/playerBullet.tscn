@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/ships/Ship_Effects_Sprites/Shot_002.png" type="Texture" id=1]
+[ext_resource path="res://shots/playerBullet.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10, 85 )
+
+[node name="shot" type="Sprite"]
+modulate = Color( 0, 1, 0, 1 )
+position = Vector2( 5, -3.55272e-15 )
+rotation = 1.5708
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Area2D" type="Area2D" parent="." groups=["bullets"]]
+collision_layer = 16
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -2.27374e-13, -25 )
+shape = SubResource( 1 )

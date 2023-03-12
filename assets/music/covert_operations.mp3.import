@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/covert_operations.mp3-8b9c7d6af13f3e2fb61caea58044d27f.mp3str"
+
+[deps]
+
+source_file="res://assets/music/covert_operations.mp3"
+dest_files=[ "res://.import/covert_operations.mp3-8b9c7d6af13f3e2fb61caea58044d27f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
